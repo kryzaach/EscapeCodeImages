@@ -3,11 +3,11 @@ Converts images to ANSI escape codes for more interesting MOTD banners
 
 Couple of things going on here:
 
-  -Foreground characters are ` .-+*#%@$` to simulate luminance
+  - Foreground characters are ` .-+*#%@$` to simulate luminance
   
-  -Foreground colours are selected by sampling the upper half of a vertical pixel "doublet"
+  - Foreground colours are selected by sampling the upper half of a vertical pixel "doublet"
   
-  -Background colours are selected by sampling the bottom half of the same
+  - Background colours are selected by sampling the bottom half of the same
 
 That's about it.
 Simple images will give more usable results depending on the system hosting.
