@@ -1,5 +1,5 @@
 # EscapeCodeImages
-Converts images to ansi escape codes for more interesting MOTD Banners
+Converts images to ANSI escape codes for more interesting MOTD banners
 
 Couple of things going on here:
 
