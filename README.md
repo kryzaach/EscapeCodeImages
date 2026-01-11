@@ -23,11 +23,11 @@ Usage terminal3.py image_path [width]
 
 Converting an image of The Plague:
 
-![Original](./god2.png)
+![Original](./docs/images/god2.png)
 
 Ends up looking like this:
 
-![ASCII converted](./terminal3example.png)
+![ASCII converted](./docs/images/terminal3example.png)
 
 The luminance effect is subtle, but really adds a lot of image detail when compared with background block conversion to colour values or even common techniques like splitting the forground in hald using that wierd unicode half blopck thing letting you double the vertical resolution.
 
