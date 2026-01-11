@@ -19,7 +19,7 @@ This converter produces reams of text looking like this:
 
 (Cisco switches will crap out about halfway through a decent image because of the sheer amount of characters required to write an escape code. A partial workaround for these platforms is to split the banner between "Login" and "MOTD", which doubles the available character space)
 
-Usage terminal3.py image_path [width]
+Usage: `terminal3.py image_path [width]`
 
 Converting an image of The Plague:
 
