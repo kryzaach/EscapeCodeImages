@@ -19,7 +19,7 @@ def convert_image_to_dual(image_path, width=80):
     
     # Resize image to target dimensions
     resized_img = img.resize((width, pixel_rows))
-    pixels = list(resized_img.getdata())
+    pixels = list(resized_img.get_flattened_data())
     
     output_lines = []
     grayscale_chars = " .-+*#%@$"  # Enhanced luminance scale
